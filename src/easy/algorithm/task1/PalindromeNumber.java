@@ -1,4 +1,4 @@
-package easy.task1;
+package easy.algorithm.task1;
 
 public class PalindromeNumber {
 
