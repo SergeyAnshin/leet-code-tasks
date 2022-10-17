@@ -1,14 +1,20 @@
 ### Task
 
+___
+
 Write an SQL query to report all customers who never order anything.
 
 Return the result table in any order.
 
 ### Example
 
+___
+
 > <img src="example.PNG" width="167" height="477">
 
 ### SQL query
+
+___
 
 #### My
 
