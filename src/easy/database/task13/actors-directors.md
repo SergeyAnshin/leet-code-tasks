@@ -1,0 +1,24 @@
+### Task
+
+___
+
+Write a SQL query for a report that provides the pairs (actor_id, director_id) where the actor has cooperated with the director at least three times.
+
+### Example
+
+___
+
+> <img src="example.PNG" width="365" height="330">
+
+### SQL query
+
+___
+
+#### My
+
+```sql
+SELECT actor_id, director_id
+FROM ActorDirector
+GROUP BY actor_id, director_id
+HAVING COUNT(actor_id) >= 3
+```
